@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SphereMat
-  m_Shader: {fileID: -6465566751694194690, guid: b7b8e4bf3109b214aaee4263cd63f1d6,
+  m_Shader: {fileID: -6465566751694194690, guid: 3c9cafc2e0451f24a8cdb6988783aa41,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -61,6 +61,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _IceNorms:
+        m_Texture: {fileID: 2800000, guid: 503fb48c542e72049ba10e5ef42d2ced, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,11 +81,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_78f8eb07a0c54683b4ea317511e2d54e_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d7decc8cd7dc64649bb6b3003a08c14f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_37f16943218f4cc19a8f850024a61feb_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 503fb48c542e72049ba10e5ef42d2ced, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_5b3e71e7d2f94e1aa560c53c83ce8080_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 503fb48c542e72049ba10e5ef42d2ced, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7b738f24eb784568b63b5c278d0fc82e_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 503fb48c542e72049ba10e5ef42d2ced, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -91,6 +103,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_a32ea924bc7a4fd08c3b4629a94af9ac_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: beb2aaf7ce1ce744ea9938c60aa75c5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f0ff29cc77bb41b8892d60f818ec12f4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d7decc8cd7dc64649bb6b3003a08c14f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -128,6 +144,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FPower: 3.4
+    - _Fresnel: 1.96
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -138,6 +155,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RefractAmount: 0.443
     - _Repeat1: 1
     - _Repeat2: 1
     - _Smoothness: 0.5
@@ -150,7 +168,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.66215736, g: 0.9056604, b: 0.6953878, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _cracks: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
